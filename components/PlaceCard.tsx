@@ -1,12 +1,13 @@
 import Link from "next/link";
 import type { Place } from "@/data/places";
+import { asset } from "@/lib/asset";
 
 export function PlaceCard({ place, href }: { place: Place; href?: string }) {
   const content = (
     <article className="card group flex h-full flex-col">
       <div className="relative aspect-[16/10] w-full overflow-hidden bg-sky-mist">
         <img
-          src={place.illustration}
+          src={asset(place.illustration)}
           alt={place.alt}
           className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]"
           loading="lazy"

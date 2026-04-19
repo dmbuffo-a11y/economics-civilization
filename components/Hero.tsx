@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 
 export function Hero() {
   return (
@@ -7,7 +8,7 @@ export function Hero() {
         aria-hidden
         className="absolute inset-0 -z-10"
         style={{
-          backgroundImage: "url(/hero.svg)",
+          backgroundImage: `url(${asset("/hero.svg")})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

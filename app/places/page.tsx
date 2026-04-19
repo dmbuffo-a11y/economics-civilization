@@ -3,6 +3,7 @@ import Link from "next/link";
 import { places } from "@/data/places";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SchematicMap } from "@/components/SchematicMap";
+import { asset } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "Места",
@@ -46,7 +47,7 @@ export default function PlacesPage() {
                 <div className="card">
                   <div className="relative aspect-[16/10] w-full overflow-hidden bg-sky-mist">
                     <img
-                      src={p.illustration}
+                      src={asset(p.illustration)}
                       alt={p.alt}
                       className="h-full w-full object-cover"
                       loading="lazy"
