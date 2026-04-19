@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img">
+  <defs>
+    <linearGradient id="skyP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6f0f8"/>
+      <stop offset="100%" stop-color="#cfe3ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#skyP)"/>
+  <!-- trees row -->
+  <g>
+    <g transform="translate(60 180)">
+      <rect x="16" y="120" width="8" height="40" fill="#1f3a56"/>
+      <polygon points="20,0 40,160 0,160" fill="#5b8a64"/>
+    </g>
+    <g transform="translate(150 210)">
+      <rect x="16" y="90" width="8" height="30" fill="#1f3a56"/>
+      <polygon points="20,0 40,120 0,120" fill="#5b8a64"/>
+    </g>
+    <g transform="translate(610 180)">
+      <rect x="16" y="120" width="8" height="40" fill="#1f3a56"/>
+      <polygon points="20,0 40,160 0,160" fill="#5b8a64"/>
+    </g>
+    <g transform="translate(700 210)">
+      <rect x="16" y="90" width="8" height="30" fill="#1f3a56"/>
+      <polygon points="20,0 40,120 0,120" fill="#5b8a64"/>
+    </g>
+  </g>
+  <!-- water -->
+  <path d="M0 380 Q 400 340 800 380 L800 420 Q 400 380 0 420 Z" fill="#bfd9ee"/>
+  <!-- ground -->
+  <rect x="0" y="420" width="800" height="80" fill="#e9e3d6"/>
+  <!-- boardwalk -->
+  <rect x="240" y="400" width="320" height="16" fill="#c9a57a"/>
+  <g stroke="#0f1d2e" stroke-opacity="0.2">
+    <line x1="260" y1="400" x2="260" y2="416"/>
+    <line x1="290" y1="400" x2="290" y2="416"/>
+    <line x1="320" y1="400" x2="320" y2="416"/>
+    <line x1="350" y1="400" x2="350" y2="416"/>
+    <line x1="380" y1="400" x2="380" y2="416"/>
+    <line x1="410" y1="400" x2="410" y2="416"/>
+    <line x1="440" y1="400" x2="440" y2="416"/>
+    <line x1="470" y1="400" x2="470" y2="416"/>
+    <line x1="500" y1="400" x2="500" y2="416"/>
+    <line x1="530" y1="400" x2="530" y2="416"/>
+  </g>
+  <!-- people -->
+  <g fill="#0f1d2e" opacity="0.8">
+    <g transform="translate(300 370)">
+      <circle cx="0" cy="0" r="5"/>
+      <rect x="-4" y="6" width="8" height="22" rx="2"/>
+    </g>
+    <g transform="translate(330 372)">
+      <circle cx="0" cy="0" r="4"/>
+      <rect x="-3" y="5" width="6" height="20" rx="2"/>
+    </g>
+    <g transform="translate(470 368)">
+      <circle cx="0" cy="0" r="5"/>
+      <rect x="-4" y="6" width="8" height="24" rx="2"/>
+    </g>
+  </g>
+  <!-- sun -->
+  <circle cx="640" cy="100" r="28" fill="#fbfaf6"/>
+</svg>

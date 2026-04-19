@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img">
+  <defs>
+    <linearGradient id="skyA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6f0f8"/>
+      <stop offset="100%" stop-color="#d3e6f3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#skyA)"/>
+  <ellipse cx="180" cy="90" rx="100" ry="16" fill="#fff" opacity="0.85"/>
+  <ellipse cx="640" cy="70" rx="120" ry="18" fill="#fff" opacity="0.85"/>
+  <!-- ground -->
+  <rect x="0" y="380" width="800" height="120" fill="#f4f1ea"/>
+  <path d="M0 380 L800 380" stroke="#0f1d2e" stroke-opacity="0.1"/>
+  <!-- building base -->
+  <rect x="120" y="220" width="560" height="170" fill="#1f3a56"/>
+  <!-- concrete canopy -->
+  <rect x="90" y="210" width="620" height="22" fill="#e9e3d6"/>
+  <!-- vertical glazing -->
+  <g fill="#bfd9ee">
+    <rect x="150" y="240" width="20" height="130"/>
+    <rect x="185" y="240" width="20" height="130"/>
+    <rect x="220" y="240" width="20" height="130"/>
+    <rect x="255" y="240" width="20" height="130"/>
+    <rect x="290" y="240" width="20" height="130"/>
+    <rect x="325" y="240" width="20" height="130"/>
+    <rect x="360" y="240" width="20" height="130"/>
+    <rect x="395" y="240" width="20" height="130"/>
+    <rect x="430" y="240" width="20" height="130"/>
+    <rect x="465" y="240" width="20" height="130"/>
+    <rect x="500" y="240" width="20" height="130"/>
+    <rect x="535" y="240" width="20" height="130"/>
+    <rect x="570" y="240" width="20" height="130"/>
+    <rect x="605" y="240" width="20" height="130"/>
+    <rect x="640" y="240" width="20" height="130"/>
+  </g>
+  <!-- sign -->
+  <rect x="320" y="180" width="160" height="26" fill="#0f1d2e"/>
+  <text x="400" y="199" text-anchor="middle" font-family="Manrope, system-ui" font-size="16" fill="#fbfaf6" font-weight="700">АВИАТОР</text>
+  <!-- plane silhouette above -->
+  <g transform="translate(520 100)" fill="#0f1d2e" opacity="0.8">
+    <path d="M0 10 L120 0 L112 12 L50 16 L36 28 L28 28 L40 16 Z"/>
+    <circle cx="118" cy="-2" r="3" fill="#4d9bd4"/>
+  </g>
+  <!-- paving -->
+  <g stroke="#0f1d2e" stroke-opacity="0.1">
+    <line x1="100" y1="400" x2="700" y2="400"/>
+    <line x1="100" y1="430" x2="700" y2="430"/>
+  </g>
+</svg>
